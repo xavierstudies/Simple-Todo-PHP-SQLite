@@ -2,7 +2,7 @@
 
 $id = $_GET['rowid'];
 
-$sqlite = new SQLite3('todo.db');
+$sqlite = new SQLite3('data/todo.db');
 
 $query = "delete from tasks where rowid=?";
 $pstm = $sqlite->prepare($query);

@@ -2,6 +2,8 @@
 
 Uma aplicação simples de lista de tarefas (ToDo List) desenvolvida com **PHP**, **Bootstrap** e **SQLite**.
 
+![Screenshot Application](./screenshots/Screenshot.png)
+
 ## 📋 Funcionalidades
 
 - Adicionar novas tarefas.

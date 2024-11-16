@@ -6,7 +6,7 @@ $status = !$_GET['status'];
 
 if ($action == "setStatus") {
 
-    $sqlite = new SQLite3('todo.db');
+    $sqlite = new SQLite3('data/todo.db');
 
     $query = "update tasks set is_done=? where rowid=?";
     $pstm = $sqlite->prepare($query);

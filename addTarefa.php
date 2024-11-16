@@ -2,7 +2,7 @@
 
 $tarefa = $_POST['tarefa'];
 
-$sqlite = new SQLite3('todo.db');
+$sqlite = new SQLite3('data/todo.db');
 
 $query = "insert into tasks(tarefa) values (?)";
 $pstm = $sqlite->prepare($query);

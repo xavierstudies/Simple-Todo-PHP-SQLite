@@ -28,7 +28,7 @@
 
             <?php
 
-            $sqlite = new SQLite3('todo.db');
+            $sqlite = new SQLite3('data/todo.db');
 
             $search = $sqlite->query("select rowid,* from tasks");
 
